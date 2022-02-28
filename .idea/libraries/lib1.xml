@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="lib1">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../../Program Files/hsqldb-2.6.1/hsqldb/lib" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+    <jarDirectory url="file://$PROJECT_DIR$/../../../../Program Files/hsqldb-2.6.1/hsqldb/lib" recursive="false" />
+  </library>
+</component>
