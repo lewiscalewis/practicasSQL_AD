@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="identifier.sqlite" uuid="a5c8a786-3ad9-4d5d-986a-5d373f884b0d">
+    <data-source source="LOCAL" name="SQLite - identifier.sqlite" uuid="a5c8a786-3ad9-4d5d-986a-5d373f884b0d">
       <driver-ref>sqlite.xerial</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.sqlite.JDBC</jdbc-driver>
       <jdbc-url>jdbc:sqlite:identifier.sqlite</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="Apache Derby (Embedded) - consultorio" uuid="65e0f75e-3d84-41b9-a7f9-cc0d484fde64">
+    <data-source source="LOCAL" name="Apache Derby (Embedded) - db" uuid="65e0f75e-3d84-41b9-a7f9-cc0d484fde64">
       <driver-ref>derby.embedded</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.apache.derby.jdbc.EmbeddedDriver</jdbc-driver>
-      <jdbc-url>jdbc:derby:$PROJECT_DIR$/../../../../DB/DERBY/consultorio</jdbc-url>
+      <jdbc-url>jdbc:derby:$PROJECT_DIR$/src/db</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
     <data-source source="LOCAL" name="HSQLDB (Local) - db" uuid="207070e4-b9da-48ae-ad00-89eb7672fedb">
       <driver-ref>hsqldb.local</driver-ref>
       <synchronize>true</synchronize>
-      <jdbc-driver>org.hsqldb.jdbcDriver</jdbc-driver>
+      <jdbc-driver>org.hsqldb.jdbc.JDBCDriver</jdbc-driver>
       <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/src/db/HSQL</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
