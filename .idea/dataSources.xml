@@ -22,5 +22,12 @@
       <jdbc-url>jdbc:hsqldb:file:$PROJECT_DIR$/src/db/HSQL</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
+    <data-source source="LOCAL" name="db" uuid="d2404c52-a9b6-403d-93cf-ec275cc33516">
+      <driver-ref>h2.unified</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.h2.Driver</jdbc-driver>
+      <jdbc-url>jdbc:h2:C:\Users\lewis\IdeaProjects\practicasSQL_AD\src\db</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
   </component>
 </project>

@@ -10,7 +10,7 @@ public class Primero {
             Class.forName("org.sqlite.JDBC");
             Connection conn;
             // db parameters
-            String url = "jdbc:sqlite:identifier.sqlite";
+            String url = "jdbc:sqlite:src/db/identifier.sqlite";
             // create a connection to the database
             conn = DriverManager.getConnection(url);
 
