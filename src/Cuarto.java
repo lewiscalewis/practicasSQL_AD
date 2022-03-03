@@ -9,12 +9,12 @@ public class Cuarto {
             Class.forName("org.h2.Driver");
             Connection conn;
             // db parameters
-            String url = "jdbc:h2:C:/Users/lewis/IdeaProjects/practicasSQL_AD/src/db";
+            String url = "jdbc:h2:C:/Users/lewiscalewis/IdeaProjects/AD_PracticaSQL/src/db/db";
             // create a connection to the database
             conn = DriverManager.getConnection(url);
 
             Statement consulta = conn.createStatement();
-            ResultSet rs = consulta.executeQuery("SELECT PACIENTES.NOMBRE, PACIENTES.TFLN  FROM PACIENTES WHERE NOMBRE LIKE '%a'");
+            ResultSet rs = consulta.executeQuery("SELECT nombre, tfln  FROM PACIENTES WHERE NOMBRE LIKE '%a'");
 
             while (rs.next()){
                 System.out.println("Paciente: ");
