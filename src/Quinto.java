@@ -2,7 +2,7 @@ import java.sql.*;
 
 public class Quinto {
     public static void main(String[] args) {
-        //prueba(args[0]);
+        prueba(args[0]);
         prueba("Nba");
     }
 
