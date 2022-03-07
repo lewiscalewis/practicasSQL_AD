@@ -9,9 +9,7 @@ public class Sexto {
 //        nuevoPaciente("8888848l", "paco", 6666666);
 //        nuevaVisita("54444654j", "8888848l", "01/01/2015");
 //        cumpleanos("54444654j");
-//        tfnoFijo();
-
-
+          tfnoFijo();
     }
 
     public static void doctores(){
